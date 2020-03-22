@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RegexSwift'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of RegexSwift.'
+  s.version          = '1.0.0'
+  s.summary          = 'A convenient regex lib for Swift.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,18 +18,18 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A convenient regex lib via Swift.
                        DESC
 
-  s.homepage         = 'https://github.com/dats0354@gmail.com/RegexSwift'
+  s.homepage         = 'https://github.com/Jinkeycode/RegexSwift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'dats0354@gmail.com' => 'dats0354@gmail.com' }
-  s.source           = { :git => 'https://github.com/dats0354@gmail.com/RegexSwift.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.author           = { 'Jinkeycode' => 'https://jinkey.ai' }
+  s.source           = { :git => 'https://github.com/Jinkeycode/RegexSwift.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://jinkey.ai'
+  
   s.ios.deployment_target = '8.0'
-
+  s.swift_versions = ['5.0', '5.1']
   s.source_files = 'RegexSwift/Classes/**/*'
   
   # s.resource_bundles = {

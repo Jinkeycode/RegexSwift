@@ -1,0 +1,6 @@
+framework module RegexSwift {
+  umbrella header "RegexSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
