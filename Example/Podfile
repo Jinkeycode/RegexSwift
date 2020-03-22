@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RegexSwift_Example' do
+  pod 'RegexSwift', :path => '../'
+
+  target 'RegexSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
